@@ -18,4 +18,27 @@ code {
 
 .container{
   max-width: 90%;
+  margin: auto;
+}
+
+/*BUTTONS*/
+.button{
+  background: rgb(227,59,38);
+  background: linear-gradient(180deg, rgba(227,59,38,1) 44%, rgba(173,26,7,1) 93%);
+  padding: 12px 24px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+/*HEADER*/
+header{
+  background-image: url('/src/images/bgHeader.jpg');
+}
+
+/*DISPLAY*/
+.display{
+  height: calc(100vh - 80px);
+  background-image: url('/src/images/bgDisplay.jpg');
 }
