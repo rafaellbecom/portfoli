@@ -2,18 +2,30 @@ export function Display(){
     return(
         <div className="display">
             <div className="container flex justify-center items-center h-full">
-                <div className="w-1/2 h-full top-[-50%]">
-                        <h1 className="text-white text-4xl">Olá, me chamo Rafael!</h1>
-                        <h2 className="text-reddark text-lg mt-12">Desenvolvedor Front-End e Webdesigner</h2>
+                <div className="w-1/2 h-full flex items-center">
+                        <div>
+                            <h1 className="text-white text-4xl font-regular">Olá, me chamo <span className="font-bold">Rafael!</span></h1>
+                            <h2 className="text-reddark text-lg italic">Desenvolvedor Front-End e Webdesigner</h2>
 
-                        <p className="text-white text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus est at lorem vehicula, molestie faucibus magna fermentum. <br /><br /> Pellentesque ac est rhoncus, pretium risus vel, rhoncus metus. Sed cursus est at lorem vehicula.</p>
-                        <div className="w-full flex gap-[30px]">
-                            <button className="button w-[40%]">Portfólio</button>
-                            <button className="button w-[60%]">Download CV</button>
+                            <p className="text-white text-lg mt-12">Desenvolvedor Front-end e Graduando em Engenharia da Computação pela Unifacs com cerca de 1 ano de experiência em prototipação e desenvolvimento de sites, e-commerces, páginas e portais.</p>
+                            <div className="w-full flex gap-[30px] mt-6">
+                                <button className="button w-[40%]">Portfólio</button>
+                                <button className="button w-[60%]">Download CV</button>
+                            </div>
                         </div>
                 </div>
                 <div className="w-1/2 h-full">
-                    <h1>Mundo</h1>
+                    <img src=".../images/foto-pessoa.jpg" alt="" />
+
+                    <div className="social">
+                        <ul>
+                            <li><a href=""><img src=".../images/icons/github-RafaelLima.svg" alt="" /></a></li>
+                            <li><a href=""><img src=".../images/icons/linkedin-RafaelLima.svg" alt="" /></a></li>
+                            <li><a href=""><img src=".../images/icons/behance-RafaelLima.svg" alt="" /></a></li>
+                            <li><a href=""><img src=".../images/icons/email-RafaelLima.svg" alt="" /></a></li>
+                            <li><a href=""><img src=".../images/icons/whatsapp-RafaelLima.svg" alt="" /></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
