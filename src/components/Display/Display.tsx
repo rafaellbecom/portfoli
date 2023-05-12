@@ -14,8 +14,8 @@ export function Display(){
                             </div>
                         </div>
                 </div>
-                <div className="w-1/2 h-full">
-                    <div className="rafaelDisplay w-[75%] h-[8%] bg-black m-auto">
+                <div className="w-1/2 h-full flex flex-col justify-center">
+                    <div className="rafaelDisplay w-[75%] h-[80%] bg-black m-auto">
 
                     </div>
 

@@ -43,3 +43,9 @@ header{
   background-image: url('/src/images/bg-display.svg');
   background-size: cover;
 }
+
+/*SOBRE MIM*/
+.sobreMim{
+  background-image: url('/src/images/bgQuemSomos.svg');
+  background-size: cover;
+}
