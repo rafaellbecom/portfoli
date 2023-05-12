@@ -40,5 +40,6 @@ header{
 /*DISPLAY*/
 .display{
   height: calc(100vh - 80px);
-  background-image: url('/src/images/bgDisplay.jpg');
+  background-image: url('/src/images/bg-display.svg');
+  background-size: cover;
 }

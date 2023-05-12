@@ -15,15 +15,17 @@ export function Display(){
                         </div>
                 </div>
                 <div className="w-1/2 h-full">
-                    <img src=".../images/foto-pessoa.jpg" alt="" />
+                    <div className="rafaelDisplay w-[75%] h-[8%] bg-black m-auto">
 
-                    <div className="social">
+                    </div>
+
+                    <div className="social w-full h-[30px] flex justify-center items-center">
                         <ul>
-                            <li><a href=""><img src=".../images/icons/github-RafaelLima.svg" alt="" /></a></li>
-                            <li><a href=""><img src=".../images/icons/linkedin-RafaelLima.svg" alt="" /></a></li>
-                            <li><a href=""><img src=".../images/icons/behance-RafaelLima.svg" alt="" /></a></li>
-                            <li><a href=""><img src=".../images/icons/email-RafaelLima.svg" alt="" /></a></li>
-                            <li><a href=""><img src=".../images/icons/whatsapp-RafaelLima.svg" alt="" /></a></li>
+                            <li><a href="#"><img src=".../images/icons/github-RafaelLima.svg" alt="" /></a></li>
+                            <li><a href="#"><img src=".../images/icons/linkedin-RafaelLima.svg" alt="" /></a></li>
+                            <li><a href="#"><img src=".../images/icons/behance-RafaelLima.svg" alt="" /></a></li>
+                            <li><a href="#"><img src=".../images/icons/email-RafaelLima.svg" alt="" /></a></li>
+                            <li><a href="#"><img src=".../images/icons/whatsapp-RafaelLima.svg" alt="" /></a></li>
                         </ul>
                     </div>
                 </div>
